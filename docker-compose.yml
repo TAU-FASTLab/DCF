@@ -2,7 +2,7 @@ version: "3.9"
 services:
    
     dcf:
-        image: dcf-data-processing
+        image: dcf-data-processing:1.1
         container_name: dcf
         hostname: dcf
         ports:
