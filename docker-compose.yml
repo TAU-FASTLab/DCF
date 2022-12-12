@@ -2,7 +2,7 @@ version: "3.9"
 services:
    
     dcf:
-        image: dcf-data-processing:1.1
+        image:  docker.ramp.eu/shop4cf/dcf-data-processing:1.8
         container_name: dcf
         hostname: dcf
         ports:
@@ -10,7 +10,4 @@ services:
         expose:
         - "1028"
     
-networks:
-    default:
-        name: orion-ld_default
-        external: true
+
