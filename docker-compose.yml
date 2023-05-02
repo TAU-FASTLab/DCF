@@ -2,7 +2,7 @@ version: "3.9"
 services:
    
     dcf:
-        image: docker.ramp.eu/tau-pvt/dcf:1.9.6
+        image: docker.ramp.eu/tau-pvt/dcf:1.9.8
         container_name: dcf
         hostname: dcf
         ports:
